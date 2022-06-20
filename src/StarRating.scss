@@ -1,0 +1,77 @@
+:root {
+    --star-size: 35px;
+    @media (max-width:480px)  {
+      --star-size: 22px;
+    }
+    --star-color: #fff;
+    --star-background: #fc0;
+  }
+  
+  .Stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+    padding: 5px 5px 5px 0;
+    display: inline-block;
+    font-size: var(--star-size);
+    font-family: Times; // make sure ★ appears correctly
+    line-height: 1;
+    
+    &::before {
+      content: '★★★★★';
+      letter-spacing: 1px;
+      background: linear-gradient(to right, var(--star-background) var(--percent), var(--star-color) var(--percent));
+      // to right indicates direction of filling gold color
+      // --percent comes from prop data 
+      // star-color and --percent fill in remainder of star with white
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  
+  
+  body {
+    
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  * {
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .starCountNumber {
+    vertical-align: top;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 45px;
+    color: #282827;
+    letter-spacing: .2px;
+    font-family:National2;
+  }
+  
+  .reviewCount {
+    vertical-align: top;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 45px;
+    color: #A9A9A9;
+    letter-spacing: .2px;
+    font-family:National2;
+    padding-left: 5px;
+  }
+  
+  .ratingstext {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    color: #A9A9A9;
+    letter-spacing: .2px;
+    font-family:National2;
+    padding-bottom: 27px;
+  }
+  

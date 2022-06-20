@@ -1,7 +1,12 @@
 
+.App {
+  
+  background: #E5E5E5;
+}
 
 .bannercontainer {
   margin-bottom: 15px;
+  
 }
 
 .icon,
@@ -44,6 +49,7 @@
 }
 
 .bodytext {
+  
   font-family: National2;
   font-style: normal;
   font-weight: 400;
@@ -51,20 +57,11 @@
   line-height: 22px;
   color: #282827;
   letter-spacing: .2px;
+  padding-bottom: 20px;
 }
 
-.clip-star {
-  background: gold;
-  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-  display: inline-block;
-  height: 100px;
-  width: 100px;
-}
-
-body {
-  align-items: center;
-  background: #333;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
+.CTAcard {
+  padding: 20px;
+  border: hidden;
+  background: white;
 }
