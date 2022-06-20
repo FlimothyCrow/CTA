@@ -43,6 +43,10 @@
   }
   
   .starCountNumber {
+    @media (max-width:480px)  {
+      vertical-align: middle;
+      font-size: 15px;
+    }
     vertical-align: top;
     font-style: normal;
     font-weight: 600;
@@ -54,6 +58,9 @@
   }
   
   .reviewCount {
+    @media (max-width:480px)  {
+      font-size: 15px;
+    }
     vertical-align: top;
     font-style: normal;
     font-weight: 100;
@@ -66,6 +73,9 @@
   }
   
   .ratingstext {
+    @media (max-width:480px)  {
+      font-size: 15px;
+    }
     font-style: normal;
     font-weight: 100;
     font-size: 18px;

@@ -16,6 +16,9 @@
 }
 
 .bannertext {
+  @media (max-width:480px)  {
+    display: inline;
+  }
   font-family: National2-Bold;
   font-weight: 700;
   font-size: 44px;
@@ -40,6 +43,9 @@
 }
 
 .tagline {
+  @media (max-width:480px)  {
+    font-size: 31px;
+  }
   font-family: National2-Bold;
   font-weight: 700;
   font-size: 36px;
@@ -49,7 +55,9 @@
 }
 
 .bodytext {
-  
+  @media (max-width:480px)  {
+    font-size: 21px;
+  }
   font-family: National2;
   font-style: normal;
   font-weight: 400;
