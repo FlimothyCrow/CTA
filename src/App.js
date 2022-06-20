@@ -34,7 +34,3 @@ function App() {
 }
 
 export default App
-// to do
-// vector font or font family?
-// TO EMAIL ON MONDAY: is this read only? mobile 4.6 v large 4.9? are the stars updatable?
-// bootstrap for sizing based on small / large

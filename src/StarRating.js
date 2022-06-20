@@ -2,9 +2,7 @@ import "./StarRating.scss"
 const { starRounder } = require("./helpers")
 
 const StarRating = (props) => {
-    console.log(props.starCount)
     let starCountToRender = starRounder(props.starCount)
-    console.log(starCountToRender)
     return (
         <div>
             <div
