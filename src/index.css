@@ -1,3 +1,16 @@
+@font-face {
+  font-family: "National2";
+  src: local("National2"),
+    url("./fonts/National 2/National2-Regular.otf") format("truetype");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "National2-Bold";
+  src: local("National2"),
+    url("./fonts/National 2/National2-Bold.otf") format("truetype");
+  font-weight: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

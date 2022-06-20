@@ -1,0 +1,70 @@
+
+
+.bannercontainer {
+  margin-bottom: 15px;
+}
+
+.icon,
+.bannertext {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.bannertext {
+  font-family: National2-Bold;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 38px;
+  color: #FC5647;
+  letter-spacing: -0.75px;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 0px 0px 15px 15px;
+}
+
+.button {
+  background-color: #FC5647;
+  color: white;
+  border: none;
+  width: 370px;
+  height: 50px;
+  font-size: 20px;
+  font-family: National2-Bold;
+  border-radius: 4px;
+  line-height: 24px;
+}
+
+.tagline {
+  font-family: National2-Bold;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 28px;
+  color: #282827;
+  letter-spacing: -0.75px; /* identical to box height, or 78% */
+}
+
+.bodytext {
+  font-family: National2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  color: #282827;
+  letter-spacing: .2px;
+}
+
+.clip-star {
+  background: gold;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+
+body {
+  align-items: center;
+  background: #333;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
